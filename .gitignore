@@ -1,0 +1,16 @@
+node_modules/
+out/
+dist/
+coverage/
+.idea/
+!.idea/dictionaries/
+context/
+*.tgz
+*.lcov
+logs
+_.log
+.env
+.eslintcache
+.cache
+*.tsbuildinfo
+.DS_Store

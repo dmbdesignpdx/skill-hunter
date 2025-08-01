@@ -1,0 +1,27 @@
+{
+  "name": "skill-hunter",
+  "description": "A simple AI agent that can search the web for skills and provide information about them.",
+  "version": "0.0.1",
+  "author": {
+    "email": "daniel@danielblake.dev",
+    "name": "Daniel Blake",
+    "url": "https://danielblake.dev"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "postinstall": "mkdir -p context",
+    "start": "bun run index"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^24.1.0",
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@ai-sdk/openai": "^1.3.23",
+    "ai": "^4.3.19",
+    "chalk": "^5.4.1"
+  }
+}
